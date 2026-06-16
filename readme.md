@@ -43,18 +43,4 @@ Para correr este proyecto en tu entorno local con XAMPP, sigue estos pasos:
 Clona este repositorio dentro de tu carpeta de servidor:
 
 Bash
-git clone https://github.com/Roseman507/NombreDeTuRepositorio.git
-Asegúrate de mover la carpeta clonada a: C:\xampp\htdocs\
-
-Abre el XAMPP Control Panel e inicia el servicio de Apache.
-
-Abre tu navegador web e ingresa a: http://localhost/NombreDeTuCarpeta/
-
-Desarrollador
-Nombre: Carlos Roseman
-
-Carrera: Licenciatura en Desarrollo y Gestión de Software
-
-Institución: Universidad Tecnológica de Panamá (UTP)
-
-GitHub: @Roseman507
+git clone https://github.com/rosemanslo/LAB_MINIPROYECTO.git

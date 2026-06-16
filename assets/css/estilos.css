@@ -1,0 +1,197 @@
+/* ===== GENERAL ===== */
+html { 
+    scroll-behavior: smooth; 
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f3; /* Fondo rosa pastel muy suave */
+    margin: 0;
+    padding: 20px;
+    color: #3d2516; /* Texto en chocolate integral oscuro */
+    line-height: 1.6;
+}
+
+/* ===== CONTENEDOR PRINCIPAL ===== */
+.contenedor {
+    width: 85%;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff; /* Fondo blanco limpio para resaltar los bloques */
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 16px rgba(61, 37, 22, 0.15);
+    border: 2px solid #3d2516; /* Borde chocolate oscuro estructural */
+}
+
+/* ===== TITULOS (MIX PERFECTO) ===== */
+h1 {
+    text-align: center;
+    color: #3d2516; /* Chocolate oscuro */
+    margin-bottom: 25px;
+    border-bottom: 3px solid #ffb6c1; /* Subrayado rosa fuerte */
+    padding-bottom: 12px;
+    font-size: 24pt;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #3d2516; /* Chocolate oscuro para jerarquía */
+    text-align: center;
+    margin-top: 10px;
+    background-color: #ffe4e1; /* Fondo rosa viejo sutil para los títulos de bloque */
+    padding: 8px;
+    border-radius: 6px;
+}
+
+h3 {
+    color: #3d2516;
+    border-left: 4px solid #ffb6c1; /* Detalle rosa a la izquierda */
+    padding-left: 8px;
+}
+
+/* ===== FORMULARIOS ===== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="date"] {
+    padding: 11px;
+    border: 2px solid #3d2516; /* Estructura chocolate */
+    border-radius: 8px;
+    background-color: #fffafb; /* Toque rosa blanquecino interno */
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    color: #3d2516;
+    font-weight: 500;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ff69b4; /* Foco rosa brillante al escribir */
+    box-shadow: 0 0 5px rgba(255, 105, 180, 0.5);
+}
+
+/* ===== BOTONES (CHOCOLATE INTEGRAL CON HOVER ROSA) ===== */
+button {
+    background-color: #3d2516; /* Botón de chocolate oscuro puro */
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #ffb6c1; /* Cambia a rosa pastel al pasar el mouse */
+    color: #3d2516; /* Texto cambia a chocolate oscuro */
+    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.6);
+}
+
+/* ===== BLOQUES DE PROBLEMAS (FONDOS ROSA PASTEL) ===== */
+.resultado {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff5f6; /* Fondo rosa super dulce */
+    border: 2px solid #ffb6c1; /* Borde rosa */
+    border-left: 6px solid #3d2516; /* Acento fuerte en chocolate oscuro */
+    border-radius: 10px;
+}
+
+/* ===== NAVEGACIÓN / ENLACES ===== */
+a {
+    color: #3d2516;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #ffb6c1; /* Fondo rosa al pasar por encima de los links de arriba */
+    color: #3d2516;
+    text-decoration: none;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #3d2516;
+    padding: 15px;
+    border-top: 3px double #3d2516;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* ===== GRÁFICAS DE BARRAS (COMBINACIÓN DE AMBOS) ===== */
+.chart-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #3d2516;
+    margin-top: 15px;
+}
+
+.chart-row {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.chart-label {
+    width: 140px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3d2516;
+}
+
+.bar-wrapper {
+    flex-grow: 1;
+    background: #fff0f3; /* Fondo de barra en rosa suave */
+    border: 1px solid #ffb6c1;
+    border-radius: 6px;
+    overflow: hidden;
+    height: 26px;
+}
+
+.bar {
+    display: block;
+    /* Degradado que va desde el rosa fuerte hasta el chocolate integral oscuro */
+    background: linear-gradient(90deg, #ff69b4 0%, #3d2516 100%);
+    height: 100%;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 12px;
+    line-height: 26px;
+    font-weight: 600;
+    animation: slideIn 0.8s ease-out;
+}
+
+/* ===== BLOQUES DE CÓDIGO (PRE) ===== */
+pre {
+    background: #3d2516; /* Fondo chocolate integral oscuro profundo */
+    color: #fff0f3; /* Letras rosa pastel para máxima legibilidad */
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #ffb6c1;
+}
+
+@keyframes slideIn { 
+    from { width: 0%; } 
+}
